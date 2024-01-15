@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { deleteTodo, getAllTodos } from "../redux/actions/index.js";
 import { useDispatch, useSelector } from "react-redux";
-import Todo from "./Todo";
+import Todo from "./Todo.jsx";
 import Tabs from "./Tabs.jsx";
 import { ALL_TODOS, ACTIVE_TODOS, DONE_TODOS } from "../redux/actions/type.js";
 const Todos = () => {
